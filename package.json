@@ -1,0 +1,22 @@
+{
+  "name": "deveops-pipelines",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+   "run": "node index.js",
+   "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matosky1/deveops-pipelines.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/matosky1/deveops-pipelines/issues"
+  },
+  "homepage": "https://github.com/matosky1/deveops-pipelines#readme"
+}
