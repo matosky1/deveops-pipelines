@@ -6,22 +6,22 @@ on:
     branches: [ main ]
 
 jobs:
-    build:
-      runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
 
-steps:
-  - name: Checkout code
-    uses: actions/checkout@v5
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v5
 
-  - name: Set up Node.js
-    uses: actions/setup-node@v3
-    with:
-      node-version: 16
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
 
-  - name: Install dependencies
-    run: npm Install
+      - name: Install dependencies
+        run: npm Install
 
-  - name: Run tests
-    run: npm text
+      - name: Run tests
+        run: npm text
 
